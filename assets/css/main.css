@@ -21,35 +21,35 @@
 :root { 
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #191919; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #cc1616; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --heading-color: #2c3930; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #a27b5c; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #dcd7c9; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #ffffff;  /* The default color of the main navmenu links */
-  --nav-hover-color: #cc1616; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-color: #dcd7c9;  /* The default color of the main navmenu links */
+  --nav-hover-color: #a27b5c; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #dcd7c9; /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #dcd7c9; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
   --nav-dropdown-color: #212529; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #cc1616; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-dropdown-hover-color: #a27b5c; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
   --background-color: #f6f6f6;
-  --surface-color: #ffffff;
+  --surface-color: #dcd7c9;
 }
 
 .dark-background {
   --background-color: #060606;
-  --default-color: #ffffff;
-  --heading-color: #ffffff;
+  --default-color: #dcd7c9;
+  --heading-color: #dcd7c9;
   --surface-color: #252525;
-  --contrast-color: #ffffff;
+  --contrast-color: #dcd7c9;
 }
 
 /* Smooth scroll */
@@ -91,8 +91,8 @@ h6 {
 ------------------------------*/
 .php-email-form .error-message {
   display: none;
-  background: #df1529;
-  color: #ffffff;
+  background: #a27b5c;
+  color: #dcd7c9;
   text-align: left;
   padding: 15px;
   margin-bottom: 24px;
@@ -101,7 +101,7 @@ h6 {
 
 .php-email-form .sent-message {
   display: none;
-  color: #ffffff;
+  color: #dcd7c9;
   background: #059652;
   text-align: center;
   padding: 15px;
@@ -143,10 +143,10 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --background-color: #242424;
-  --default-color: #ffffff;
-  --heading-color: #ffffff;
-  --contrast-color: #ffffff;
+  --background-color: #2c3930;
+  --default-color: #dcd7c9;
+  --heading-color: #dcd7c9;
+  --contrast-color: #dcd7c9;
   color: var(--default-color);
   transition: all 0.5s;
   z-index: 997;
