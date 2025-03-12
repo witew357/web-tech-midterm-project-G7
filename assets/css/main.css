@@ -1690,15 +1690,21 @@ section,
   padding-top: 30px;
 }
 
-.portfolio-details .portfolio-description h2 {
+.portfolio-description h2 {
+  text-align: center ;
   font-size: 26px;
   font-weight: 700;
+  margin-right: 50px;
   margin-bottom: 20px;
+  margin-left: 70px;
+  margin-top: 30px;
 }
 
-.portfolio-details .portfolio-description p {
+.portfolio-description p {
   padding: 0;
   color: color-mix(in srgb, var(--default-color), transparent 30%);
+  margin-left: 90px;
+  margin-right: 90px;
 }
 
 /*--------------------------------------------------------------
